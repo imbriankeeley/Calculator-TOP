@@ -19,5 +19,5 @@ let operator = 0;
 let secondNumber = 0;
 
 function operate(firstNumber, operator, secondNumber){
-    operator(firtNumber, secondNumber);
+    operator(firstNumber, secondNumber);
 }
