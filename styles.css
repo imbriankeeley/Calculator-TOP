@@ -1,5 +1,5 @@
 html, body {
-    background-color: #f8f3e8;
+    background-color: #f0eadc;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100%;
     display: flex;
@@ -14,7 +14,8 @@ html, body {
     width: 650px;
     gap: 10px;
     padding: 10px;
-    border: solid black 1px;
+    background-color: rgb(255, 236, 212);
+    border: solid rgb(130, 127, 94) 4px;
     border-radius: 1rem;
 }
 
@@ -28,7 +29,7 @@ html, body {
     width: 565px;
     padding-right: 30px;
     margin-left: 30px;
-    border: solid black 1px;
+    border: solid rgb(130, 127, 94) 3px;
     border-radius: 1rem;
 }
 
@@ -56,7 +57,27 @@ html, body {
     align-items: center;
     height: 100px;
     width: 140px;
-    border: solid black 1px;
+    border: solid rgb(130, 127, 94) 2px;
     border-radius: 1rem;
+    background-color: antiquewhite;
 }
 
+.number:hover {
+    background-color: palegoldenrod;
+}
+
+.operator:hover {
+    background-color: rgb(245, 194, 211);
+}
+
+.equal:hover {
+    background-color: rgb(196, 249, 231);
+}
+
+.decimal:hover {
+ background-color: rgb(235, 214, 255);
+}
+
+.clear:hover {
+    background-color: rgb(255, 221, 203);
+}
