@@ -1,0 +1,18 @@
+.display {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .previous {
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  .current {
+    font-size: 2rem;
+  }
+  
